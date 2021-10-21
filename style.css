@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 14px /* 1rem*/;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(174, 182, 191);
+    letter-spacing: 0.5px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+.container::after{
+    display: "";
+    display: table;
+    clear: both;
+
+}
+.fejlec{
+    background: url(../Szupermodell/logo.jpg);
+    height: 155px;
+}
+h1{
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: 2.8rem;
+    color: white;
+    text-transform: uppercase;
+
+}
+ul{
+    list-style: none;
+}
+ul::after{
+    display: "";
+    display: table;
+    clear: both;
+}
+li{
+    text-align: center;
+    background: rgb(234, 115,4);
+    border: 1px solid white;
+}
+a{
+    padding: 10px 0;
+    width: 100%;
+    display: inline-block;
+    color: #ddd;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.kép1{
+    float: left;
+    margin: 5px 5px 0 0;
+}
+.kép2{
+    float: right;
+    margin: 0 0 0 5px;
+}
+.szoveg{
+    padding: 20px;
+    background: wheat;
+    padding-top: 40px;
+    text-align: justify;
+    width: 80%;
+    float: left;
+    
+}
+.szoveg::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2{
+    background: rgb(251, 252, 252);
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+h3{
+    background: rgb(251, 252, 252);
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: black;
+}
+.navigacio{
+    float:left;
+    width: 20%;
+    
+}
+.navigacio::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.lablec{
+    text-align: center;
+    margin-bottom: 500px;
+    color: black;
+    padding-bottom: 65px;
+    background: orange;
+}
